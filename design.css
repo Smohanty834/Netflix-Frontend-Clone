@@ -1,0 +1,409 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.main{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("img/IN-en-20240219-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 0px 11% 5%;
+    position: relative;
+    /* background-repeat: no-repeat; */
+}
+.separation{
+    width: 100%;
+    z-index: 2;
+    height: 8px;
+    background-color: rgb(35,35,35);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    /* max-width: 60vw;
+    margin: auto;
+    height: 62px; */
+}
+.logo{
+    width: 150px;
+    /* cursor: pointer; */
+    /* position: relative; */
+    /* z-index: 10; */
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background-color: rgb(229,9,20);;
+    padding: 7px 20px;
+    /* cursor: pointer; */
+    /* position: relative;
+    z-index: 10;*/
+    
+}
+.lan-btn{
+    display: inline-flex;
+    background: rgba(17, 17, 17, 0.7);
+    align-items: center;
+    border: 1px solid rgb(118, 118, 118);
+    color: white;
+    padding: 4px 10px;
+    font-size: 16px;
+    font-weight:500;
+    /* margin-left: 10px; */
+    border-radius: 4px;
+    /* background-color: #db0001; */
+}
+.lan-btn .down-icon{
+    width: 12px;
+    margin-left: 10px;
+    filter: invert(1);
+    
+}
+.lan-btn .translate-icon{
+    width: 13px;
+    margin-right: 8px;
+    filter: invert(1);
+}
+.nav-btn{
+    cursor: pointer;
+    padding: 5px 13px;
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight:500;
+    color: white;
+    border-radius: 4px;
+}
+.head-content{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* margin-top: 100px; */
+    /* height: 100%; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+}
+/* .main .separation{
+    height: 11px;
+    background-color: gray;
+    width: 100%;
+    position: relative;
+} */
+.head-content h1{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 70px;
+    /* max-width: 700px; */
+    margin-bottom: 15px;
+}
+/* .head-content p{
+    font-weight: 400;
+    margin-bottom: 20px;
+} */
+.head-content h3{
+    font-weight: 400;
+    margin-bottom: 21px;
+    font-size: 21px;
+}
+.head-content p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.head-button img{
+    width: 12px;
+    margin-left: 10px;
+}
+/* .separation{
+    width: 100%;
+    height: 0.5rem;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(35,35,35);
+    
+} */
+.email-form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    margin-top: 14px;
+    overflow: hidden;
+    /* justify-content: center; */
+    margin-left: 19vw;
+}
+.email-form input{
+    /* flex: 1; */
+    width: 26vw;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid rgb(118, 118, 118);
+    background: rgba(17, 17, 17, 0.7);
+    color: white;
+    /* filter: opacity(0%); */
+    /* line-height: 1;
+    min-height: 50px; */
+    /* background: rgb(229, 9, 20); */
+    /* color: rgb(255, 255, 255); */
+    padding: 15px 15px;
+}
+.email-form input::placeholder{
+    color: white;
+}
+.email-form .head-button{
+    background: rgb(229,9,20);;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 21px;
+    cursor: pointer;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 22px;
+    padding-right: 20px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+/* .head-button img{
+    width: 12px;
+    margin-left: 10px;
+    /* filter: invert(1); */
+
+.features{
+    /* padding: 50px 12%; */
+    font-size: 22px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 582px;
+    padding: 50px 12%;
+    /* border-top: 6px solid rgb(35,35,35); */
+    
+}
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    position: relative;
+}
+.img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+    width: 35vw ;
+    position: relative;
+    z-index: 2;
+}
+.img-col video{
+    position: absolute;
+    top: 64px;
+    right: 39px;
+    width: 29vw;
+}
+.img-col .features-video{
+    position: absolute;
+    top: 46px;
+    right: 114px;
+    width: 23vw;
+}
+.features h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.faq{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 20px;
+}
+.faq .p-tag{
+    font-size: 18px;
+    font-weight: 300;
+}
+.faq h2{
+    font-weight: 600;
+    font-size: 48px;
+}
+.questions{
+    margin: 15px auto 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 750px;
+}
+.questions li{
+    list-style: none;
+    width: 155%;
+    padding: 5px;
+}
+.questions li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    background: rgb(45,45,45);
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: 0.25s ;
+}
+input[type="radio"]{
+    display: none;
+}
+.questions .content{
+    background: rgb(45,45,45);
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.25s, padding 0.25s;
+}
+.questions input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.questions input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+.faq .email-form{
+    max-width: 600px;
+    margin: 20px auto 60px;
+}
+.faq small{
+    font-size: 13px;
+}
+.footer{
+    padding: 61px 11vw 0px;
+    border-top: 8px solid rgb(35,35,35);
+    color: rgba(255,255,255,0.7);
+    display: flex;
+    flex-direction: column;
+    height: 410px;
+    align-items: flex-start;
+}
+.footer h2{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.footer h2 a
+{
+    color: rgba(255,255,255,0.7);
+}
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+.footer .col a{
+    display: block;
+    color: rgba(255,255,255,0.7);
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+}
+/* .footer button{
+    outline: 0;
+    color: white;
+    /* background-color: #db0001; */
+    /* padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+}  */
+.footer-info{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* padding: 50px 12%; */
+}
+.cr-text{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width:600px){
+    .logo{
+        width: 100px;
+    }
+    nav button{
+        padding: 5px 10px;
+    }
+    nav .lan-btn{
+        padding: 4px 8px;
+    }
+    .head-content{
+        position: unset;
+        transform: none;
+        padding-top: 150px;
+
+    }
+    .head-content h1{
+        font-size: 30px;
+
+    }
+    .email-form button{
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    .text-col,.img-col{
+        flex-basis: 100%;
+    }
+    .features h2{
+        font-size: 30px;
+    }
+    .features p{
+        font-size: 15px;
+    }
+    .row:nth-child(2),.row:nth-child(4){
+        flex-direction: column-reverse;
+    }
+    .features .row{
+        padding: 10px 0;
+    }
+    .faq h2{
+        font-size: 20px;
+    }
+    .questions .content{
+        font-size: 14px;
+    }
+    .questions li label{
+        padding: 10px;
+        font-size: 14px;
+    }
+    label::after{
+        font-size: 22px;
+    }
+}
